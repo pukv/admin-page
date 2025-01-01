@@ -175,10 +175,15 @@ button {
   height: 80%;
   flex-direction: column;
   border-radius: 12px;
+  border-left: #667059 6px solid;
 }
 
 .item > div {
   text-align: end;
+}
+
+.item > p {
+  color: gray;
 }
 
 .item > h2 {
@@ -195,4 +200,53 @@ button {
   height: 30px;
   width: 30px;
   margin-top: 20px;
+}
+
+.announcements {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  font-family: monospace;
+}
+
+.announcements > div {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  color: gray;
+}
+
+.announcements-title {
+  margin-bottom: 0;
+  color: black;
+}
+
+.trending {
+  grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 2fr 4fr;
+  font-family: monospace;
+}
+
+.profile-pic-trending {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.trending-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.handle {
+  font-weight: bold;
+}
+
+.not-handle {
+  color: #gray;
 }
