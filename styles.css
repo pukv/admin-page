@@ -180,6 +180,7 @@ button {
 
 .item > div {
   text-align: end;
+  padding-right: 10px;
 }
 
 .item > p {
@@ -188,6 +189,7 @@ button {
 
 .item > h2 {
   margin-top: 10px;
+  padding-top: 20px;
 }
 
 .item > p,
@@ -248,5 +250,5 @@ button {
 }
 
 .not-handle {
-  color: #gray;
+  color: gray;
 }
