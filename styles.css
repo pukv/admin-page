@@ -231,6 +231,10 @@ button {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 2fr 4fr;
   font-family: monospace;
+  background-color: white;
+  border-radius: 12px;
+  width: 80%;
+  margin: auto;
 }
 
 .profile-pic-trending {
